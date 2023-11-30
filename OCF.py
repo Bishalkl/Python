@@ -60,3 +60,9 @@ finally: # it will run even in both condition
     
 print("Hello world ")
 
+if(23 % 2 == 0):
+    print("Even number")
+else:
+    print("Odd Number")
+    
+

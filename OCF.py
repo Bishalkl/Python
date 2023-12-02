@@ -45,8 +45,8 @@ while count < 10:
     count+=1
 
 # exepction handeling 
-a = 12;
-b = 0;
+a = 12
+b = 12
 
 try:  # risky code 
     c = a / b

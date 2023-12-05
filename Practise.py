@@ -20,3 +20,15 @@ if(number % 2 == 0 and number % 3 == 0):
     print("It is divisible number.")
 else:
     print("It is not divisible.")
+
+#Assignment Operators:
+a = 5 
+a +=3
+print(a)
+
+#Identity Operators:
+list1 = [1,2,3,4,5,6]
+list2 = list1
+
+result = list1 is list2
+print(result) 

@@ -14,4 +14,9 @@ if(age >= 18):
 else:
     print("You are not eligible to vote !!!")
 
-# 
+# Logical Operators.
+number = int(input("Enter the number: "))
+if(number % 2 == 0 and number % 3 == 0):
+    print("It is divisible number.")
+else:
+    print("It is not divisible.")

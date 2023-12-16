@@ -1,5 +1,4 @@
-square = 0
-for num in range(4):
-    count = num +1
-    square = count**2
+
+for num in range(1,5):
+    square = num**2
     print(square)

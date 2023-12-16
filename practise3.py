@@ -1,6 +1,5 @@
-z = int(input("Enter the number: "))
-if(z%2 == 0 and z%3 == 0):
-    print("Yes, it is divisible")
-else:
-    print("No, it is not divisible")
-
+square = 0
+for num in range(4):
+    count = num +1
+    square = count**2
+    print(square)

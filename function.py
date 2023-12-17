@@ -24,6 +24,7 @@ def even(num):
 
 even(10)
 
+#using single arg for get a value only in tuple format
 def collection_product(*number):
     total = 1
     for i in number:
@@ -32,4 +33,10 @@ def collection_product(*number):
 
 
 collection_product(1,2,3,4,)
+
+#using double args for get a keyword with value like a dict
+def save_user(**user):
+    print(f"this is your detail {user}")
+
+save_user(id=1, first_name="Bishal", last_name="Koirala")
 

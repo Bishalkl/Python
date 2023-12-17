@@ -8,5 +8,4 @@ def fizz_buzz(input):
     return input
 
 
-
-fizz_buzz(15)
+print(fizz_buzz(12))

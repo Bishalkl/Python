@@ -1,0 +1,29 @@
+Simple Function:
+Create a function that takes two numbers as parameters and returns their sum.
+
+Factorial Function:
+Write a function to calculate the factorial of a given non-negative integer.
+
+Even or Odd:
+Create a function that takes an integer as input and returns "Even" or "Odd" based on whether the number is even or odd.
+
+Reverse a String:
+Write a function that takes a string as input and returns the string reversed.
+
+List Sum:
+Create a function that takes a list of numbers and returns their sum.
+
+Palindrome Check:
+Write a function to check if a given word is a palindrome (reads the same backward as forward).
+
+Unique Elements:
+Write a function that takes a list as input and returns a new list containing only the unique elements.
+
+Leap Year:
+Create a function that checks if a given year is a leap year. A leap year is divisible by 4, but not by 100 unless it is divisible by 400.
+
+Fibonacci Sequence:
+Write a function that generates the Fibonacci sequence up to a specified number of terms.
+
+Word Count:
+Create a function that takes a sentence as input and returns a dictionary where keys are unique words, and values are the counts of each word.

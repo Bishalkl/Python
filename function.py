@@ -48,6 +48,18 @@ def a():
 
 print(message)
 
+#Anonymous Function(Lambda Functions):
+multiply = lambda x,y: x*y
+print(multiply(1,2))
 
+#Recursion
+def evennums(input):
+    if input == 2:
+        return input
+    elif input % 2 != 0:
+        return "please enter  even number."
+    else:
+        return evennums(input - 1)
 
+print(evennums(6)) 
 

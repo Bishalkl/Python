@@ -40,3 +40,13 @@ def save_user(**user):
 
 save_user(id=1, first_name="Bishal", last_name="Koirala")
 
+#global keyword use for function as local variable in function 
+message = "a"
+def a():
+    global message
+    message = "b"
+
+print(message)
+
+
+

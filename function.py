@@ -36,7 +36,7 @@ collection_product(1,2,3,4,)
 
 #using double args for get a keyword with value like a dict
 def save_user(**user):
-    print(f"this is your detail {user}")
+    print(f"this is your detail {user['first_name']}")
 
 save_user(id=1, first_name="Bishal", last_name="Koirala")
 

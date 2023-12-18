@@ -55,8 +55,11 @@ def palindromeCheck(input):
 print(palindromeCheck("radar"))
 
 #Practise seven
+update_list = []
 def filterList(input_list):
-    return list(set(input_list)) # list(set()) is use for remove the number of list.
+    global update_list  #using global keyword 
+    update_list =  list(set(input_list))   # list(set()) is use for remove the number of list.
+    return update_list
 
 print(filterList([1,2,3,4,5,6,6,6,4,5,3,4,6]))
 

@@ -17,7 +17,17 @@ print(f"The factorial of given number is {facto(10)}")
 
 #Practise three
 def checkNum(number):
+    if number <= 0:
+        return "Enter the correct number."
+    if number % 2 == 0:
+        return "Even number."
+    else:
+        return "Odd number."
     
+print(checkNum(11))
+
+#Practise four
+ 
 
     
 

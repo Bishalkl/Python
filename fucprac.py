@@ -35,7 +35,7 @@ print(reversString("Bishal koirala"))
 #Practise five
 sum = 0
 def listSum(numbers):
-    global sum        # using global keyword for convert in to listsum function loca variable 
+    global sum        # using global keyword
     for i in numbers:
         sum +=i
     return sum
@@ -43,6 +43,21 @@ def listSum(numbers):
 print(listSum([1,2,3,4,5,6,7,8,9,10]))
 
 #Practise six
+reversedWord = ""
+def palindromeCheck(input):
+    global reversedWord
+    reversedWord = input[::-1]
+    if input == reversedWord:
+        return "It is palindrome word"
+    else:
+        return "It is not palindrome word."
+
+print(palindromeCheck("radar"))
+
+#Practise seven
+
+
+
 
 
 

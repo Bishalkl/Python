@@ -55,6 +55,12 @@ def palindromeCheck(input):
 print(palindromeCheck("radar"))
 
 #Practise seven
+def filterList(input_list):
+    return list(set(input_list)) # list(set()) is use for remove the number of list.
+
+print(filterList([1,2,3,4,5,6,6,6,4,5,3,4,6]))
+
+
 
 
 

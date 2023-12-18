@@ -27,7 +27,28 @@ def checkNum(number):
 print(checkNum(11))
 
 #Practise four
- 
+def reversString(value):
+    return value[::-1]    # it is the string manipulation
+
+print(reversString("Bishal koirala"))
+
+#Practise five
+sum = 0
+def listSum(numbers):
+    global sum        # using global keyword for convert in to listsum function loca variable 
+    for i in numbers:
+        sum +=i
+    return sum
+
+print(listSum([1,2,3,4,5,6,7,8,9,10]))
+
+#Practise six
+
+
+
+
+
+
 
     
 

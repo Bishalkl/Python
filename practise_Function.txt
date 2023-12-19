@@ -27,3 +27,9 @@ Write a function that generates the Fibonacci sequence up to a specified number 
 
 Word Count:
 Create a function that takes a sentence as input and returns a dictionary where keys are unique words, and values are the counts of each word.
+
+
+Divisibility by 4: If a year is divisible by 4, it is a leap year. For example, the years 2004, 2008, and 2012 are divisible by 4 and are leap years.
+
+Exception to Rule 1: Years divisible by 100 are not leap years unless they are also divisible by 400. This means that the years 1700, 1800, and 1900 are not leap years, but the year 2000 is a leap year.
+

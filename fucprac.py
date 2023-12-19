@@ -63,6 +63,9 @@ def filterList(input_list):
 
 print(filterList([1,2,3,4,5,6,6,6,4,5,3,4,6]))
 
+#Practise eight
+
+
 
 
 

@@ -65,13 +65,11 @@ print(filterList([1,2,3,4,5,6,6,6,4,5,3,4,6]))
 
 #Practise eight
 def leapCheck(input):
-    if input % 4 == 0 and  input % 100 != 0:
+    if (input % 4 == 0 and  input % 100 != 0) or (input % 100 == 0 and input % 400 == 0):
         return "It is a leap year"
-    if input % 100 == 0 and input % 400 == 0:
-        return "It is a leap year"
-    else:
-        return "It is not leap year"
-print(leapCheck(1700))
+
+    return "It is not leap year"
+print(leapCheck(2000))
 
 
 

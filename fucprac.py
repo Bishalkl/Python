@@ -71,8 +71,19 @@ def leapCheck(input):
     return "It is not leap year"
 print(leapCheck(2000))
 
+#Practise nine
+n1 = 0
+n2 = 1
+sum = 0
+def fibnacciSequence(input): #0, 1, 1, 2, 3, 5, 8, 13, 21
+    global n1, n2, sum
+    for i in range(0,input+1):
+        print(sum)
+        n1 = n2
+        n2 = sum
+        sum = n1 + n2
 
-
+fibnacciSequence(5)
 
 
 

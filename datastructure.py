@@ -36,7 +36,12 @@ print(list2)
 
 #sort: 
 e = [1,2,3,12,9,17,45,25]
-print(sorted(a))
+print(sorted(e)) # sorted use to sort a list in acending order
+
+f = [1,2,3,4,5,9,7,10,12,11]
+f.sort(reverse=True) # to sort it in reversed form we have to use reverse function
+print(f)
+
 
 
 

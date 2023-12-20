@@ -87,6 +87,31 @@ fibnacciSequence(5)
 
 
 
+def word_count(sentence):
+    # Split the sentence into words
+    words = sentence.split()
+
+    # Create an empty dictionary to store word counts
+    word_counts = {}
+
+    # Count the occurrences of each word
+    for word in words:
+        # Remove punctuation if necessary
+        word = word.strip('.,!?;:()[]{}"\'').lower()
+
+        # Update the dictionary
+        if word in word_counts:
+            word_counts[word] += 1
+        else:
+            word_counts[word] = 1
+
+    return word_counts
+
+# Example usage
+input_sentence = "This is a simple sentence. Another sentence is also here."
+result = word_count(input_sentence)
+print(result)
+
 
 
 

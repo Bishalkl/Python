@@ -53,7 +53,9 @@ print(s1.union(s2)) #it will combine like union but remove the repeated data
 
 print(s1.intersection()) #it will filter and give a data which already in to list 
 
-print(s1.difference(s2))
+print(s1.difference(s2)) #it will give only the value which is on the list 
+
+print(s1.symmetric_difference(s2)) #it will remove common data and give output of all unique data of both list
 
 
 

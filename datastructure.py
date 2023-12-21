@@ -44,14 +44,16 @@ print(f)
 
 
 #Set 
-s1 = {1,2,3,4,4,4,4}
+s1 = {1,2,3,4}
 s2 = {1,2,3,5,6,8}
 
 #add ,  Union(), intersection(), difference(), symmertic_difference()
 
 print(s1.union(s2)) #it will combine like union but remove the repeated data
 
-print(s1.intersection())
+print(s1.intersection()) #it will filter and give a data which already in to list 
+
+print(s1.difference(s2))
 
 
 

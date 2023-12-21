@@ -20,7 +20,6 @@ print(d)
 
 
 
-
 #delete = del, pop(), remove()
 
 del list1[0] # it is use to delete the data targeting the index of l
@@ -57,6 +56,17 @@ print(s1.difference(s2)) #it will give only the value which is on the list
 
 print(s1.symmetric_difference(s2)) #it will remove common data and give output of all unique data of both list
 
+
+
+#List comprehension
+
+list_evenNumber =[ x for x in range(1,10) if x%2 == 0] 
+print(list_evenNumber)
+
+list_squarenumber =[x**2 for x in range(1,10)]
+print(list_squarenumber)
+
+#
 
 
 

@@ -51,7 +51,7 @@ s2 = {1,2,3,5,6,8}
 
 print(s1.union(s2)) #it will combine like union but remove the repeated data
 
-print(s1.intersection()) #it will filter and give a data which already in to list 
+print(s1.intersection(s2)) #it will filter and give a data which already in to list 
 
 print(s1.difference(s2)) #it will give only the value which is on the list 
 

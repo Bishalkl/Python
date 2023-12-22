@@ -1,0 +1,48 @@
+Lists:
+Indexing Practice:
+
+Given a list my_list = [10, 20, 30, 40, 50], what is the value at index 2? How would you slice the list to get elements from index 1 to 3?
+List Methods:
+
+Create a list of your favorite fruits. Use the append() method to add a new fruit to the list. Also, demonstrate the pop() method.
+List Comprehension:
+
+Generate a list of squares for numbers from 1 to 5 using list comprehension.
+Mutability Concept:
+
+Explain what happens if you modify an element at a specific index in a list. Provide an example.
+Nested Lists:
+
+Create a nested list representing a 2x2 matrix. Access and print an element from the inner list.
+Dictionaries:
+Dictionary Basics:
+
+Create a dictionary representing information about your favorite book, including title, author, and publication year.
+Dictionary Methods:
+
+Use the keys() and values() methods on the dictionary created in question 6. Explain the output.
+Dictionary Comprehension:
+
+Generate a dictionary of numbers from 1 to 5 as keys and their squares as values using dictionary comprehension.
+Key Access:
+
+Access the value associated with the "author" key in the dictionary created in question 6.
+Updating and Deleting:
+
+Update the publication year in the dictionary from question 6. Then, delete a key-value pair from the dictionary.
+Sets and Tuples:
+Sets in Python:
+
+Create two sets, one representing even numbers less than 10 and another representing prime numbers less than 10. Find their union.
+Set Operations:
+
+Given two sets A and B, where A = {1, 2, 3} and B = {3, 4, 5}, perform the intersection and difference operations.
+Tuples vs. Lists:
+
+Create a tuple of your favorite colors. Explain why using a tuple for this scenario might be appropriate.
+Immutability of Tuples:
+
+Attempt to modify an element in a tuple. Explain the outcome.
+Set Comprehensions:
+
+Generate a set of the squares of numbers from 1 to 5 using set comprehension.

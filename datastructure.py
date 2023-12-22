@@ -73,7 +73,14 @@ print(student) #to print whole value
 
 print(student['courses']) #to print value of key
 
+student['phone'] = '9811034442'
+student['name'] = 'Komal'
+print(student)
 
+print(student.get('phone','Not found')) #it also use as code above '
+
+student.update({'name': 'bishal', 'age': 21}) #it is use to update the value in dict
+print(student)
 
 
 

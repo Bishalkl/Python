@@ -69,7 +69,15 @@ print(list_squarenumber)
 
 #Dictionaries
 student = {'name': 'Bishal','age': 25, 'courses': ['math', 'comSci']}
-print(student)
+print(student) #to print whole value 
+
+print(student['courses']) #to print value of key
+
+
+
+
+
+
 
 
 

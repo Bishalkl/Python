@@ -82,6 +82,27 @@ print(student.get('phone','Not found')) #it also use as code above '
 student.update({'name': 'bishal', 'age': 21}) #it is use to update the value in dict
 print(student)
 
+#To delete dict
+#pop
+a = student.pop('name')
+print(a)
+#del
+del student['age']
+
+#remove
+
+
+
+#loop in dict
+print(len(student))
+
+print(student.items())
+print(student.keys())
+print(student.values())
+
+for key, value in student.items():
+    print(key, value)
+
 
 
 

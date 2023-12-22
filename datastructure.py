@@ -20,6 +20,7 @@ print(d)
 
 
 
+
 #delete = del, pop(), remove()
 
 del list1[0] # it is use to delete the data targeting the index of l
@@ -66,7 +67,10 @@ print(list_evenNumber)
 list_squarenumber =[x**2 for x in range(1,10)]
 print(list_squarenumber)
 
-#
+#Dictionaries
+student = {'name': 'Bishal','age': 25, 'courses': ['math', 'comSci']}
+print(student)
+
 
 
 

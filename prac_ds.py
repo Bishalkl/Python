@@ -43,3 +43,10 @@ print(b)
 c = { x: x**2 for x in range(1,6)}
 print(c)
 
+#practise nine
+favorite_book['author'] = "Bishal koirala" # updating 
+del favorite_book['publication_year'] #deleting  the value
+print(favorite_book)
+
+#practise 10
+

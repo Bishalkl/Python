@@ -68,6 +68,6 @@ print(intersection_number, difference_number)
 fav_color = ("Red", "Blue", "Green", "purple")
 print(fav_color)
 #tuple = tuple are also the data structure but they are immutable.
-
-
-
+fav_color [1] = "yellow"
+print(fav_color)
+#tuple does not support item assignment

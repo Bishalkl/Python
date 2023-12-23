@@ -45,8 +45,11 @@ print(c)
 
 #practise nine
 favorite_book['author'] = "Bishal koirala" # updating 
-del favorite_book['publication_year'] #deleting  the value
+del favorite_book['title'] #deleting  the value
+favorite_book['publication_year'] = 2005
 print(favorite_book)
 
 #practise 10
+
+
 

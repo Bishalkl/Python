@@ -28,3 +28,18 @@ print(nested_list[1][1])
 #practise six
 favorite_book = {"title": "Ai and Human", "author": "Jeffery himston", "publication_year" : 2001}
 print(favorite_book)
+
+#practise seven
+for i in favorite_book.items():
+    print(i)
+
+a = [x for x in favorite_book.keys()]
+b = [ x for x in favorite_book.values()]
+print(a)
+print(b)
+
+
+#practise eight
+c = { x: x**2 for x in range(1,6)}
+print(c)
+

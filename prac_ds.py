@@ -50,6 +50,18 @@ favorite_book['publication_year'] = 2005
 print(favorite_book)
 
 #practise 10
+evenNumber = {2,4,6,8}
+primeNumber = {2,3,5,7}
+union = evenNumber.union(primeNumber)
+print(union)
+
+#practise 11
+A = {1,2,3}
+B = {3,4,5}
+
+intersection_number = A.intersection(b)
+print(intersection_number)
+
 
 
 

@@ -64,4 +64,7 @@ intersection_number = A.intersection(B) #intersection
 difference_number = A.difference(B) #difference_number
 print(intersection_number, difference_number)
 
+#practise 12
+fav_color = ("Red", "Blue", "Green", "purple")
+print(fav_color)
 

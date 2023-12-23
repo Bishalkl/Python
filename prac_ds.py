@@ -25,3 +25,6 @@ nested_list = [[1,2,3], [4,5,6]]
 print(nested_list[0])
 print(nested_list[1][1])
 
+#practise six
+favorite_book = {"title": "Ai and Human", "author": "Jeffery himston", "publication_year" : 2001}
+print(favorite_book)

@@ -43,4 +43,13 @@ print(first_method)
 print(second_method)
 
 
+#practise five
+message = str(input("Enter a sentence: "))
+count = 0
+for i in message:
+    if(i!=' '):
+        count+=1
+print(count)
+
+
 

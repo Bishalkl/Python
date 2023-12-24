@@ -1,6 +1,8 @@
 
 #practise one
-def reverseString(string):
-    return string[::-1]
+def reverseString(string): #creating the fuction
+    return string[::-1]  #returning the value after reversing the string 
 
 print(reverseString("Bishal"))
+
+#

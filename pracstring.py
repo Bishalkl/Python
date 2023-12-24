@@ -44,12 +44,14 @@ print(second_method)
 
 
 #practise five
-message = str(input("Enter a sentence: "))
+message = str(input("Enter a sentence only: "))
 count = 0
 for i in message:
     if(i!=' '):
         count+=1
 print(count)
+
+
 
 
 

@@ -51,6 +51,10 @@ for i in message:
         count+=1
 print(count)
 
+#practise six
+name_list = ["John","Alice","Bob"]
+formatted_message = f"{name_list[0]}, {name_list[1]} and {name_list[2]}."
+print(formatted_message)
 
 
 

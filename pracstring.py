@@ -45,16 +45,30 @@ print(second_method)
 
 #practise five
 message = str(input("Enter a sentence only: "))
+list_message = message.split()
 count = 0
-for i in message:
-    if(i!=' '):
-        count+=1
+for i in list_message:
+    count+= 1
+    
 print(count)
 
 #practise six
 name_list = ["John","Alice","Bob"]
 formatted_message = f"{name_list[0]}, {name_list[1]} and {name_list[2]}."
 print(formatted_message)
+
+#practise seven
+def countSubstring(mainString, subString):
+    count = 0
+    mainString = mainString.lower()
+    subString = subString.lower()
+    mainString_list = mainString.split()
+    for i in mainString_list:
+        if(subString == i):
+            count += 1
+    return count
+
+print(countSubstring("Bishal is my name You can call me bishal and so my name is bishal koirala by the way my name is bishal too and bishal and bishal","bishal"))
 
 
 

@@ -14,11 +14,21 @@ def countVowels(string):
         for x in VowelsList:
             if i == x:
                 count += 1
-
     return count  
 
 print(countVowels("Bishal"))  
-                
+
+#practise three
+def palindromeCheck(string):
+    string = string.lower()
+    reverse_string = string[::-1]
+    if(string == reverse_string):
+        return f"This {string} is a palindrome string."    
+    else:
+        return f"This {string} is not a palindrome string."
+
+print(palindromeCheck("bibe"))      
 
 
+#prac
 

@@ -70,6 +70,22 @@ def countSubstring(mainString, subString):
 
 print(countSubstring("Bishal is my name You can call me bishal and so my name is bishal koirala by the way my name is bishal too and bishal and bishal","bishal"))
 
+#practise eight
+def filter_string(string):
+    update = set() #to check the before character to string character
+    result = [] # store unique character in result list 
+    for i in string:
+        if i not in update:
+            update.add(i)
+            result.append(i)
+    return ''.join(result) #after all joining it together with join() built in function
+
+print(filter_string("Bishalkoirala"))
+
+
+    
+
+
 
 
 

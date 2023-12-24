@@ -82,6 +82,12 @@ def filter_string(string):
 
 print(filter_string("Bishalkoirala"))
 
+#practise nine
+message1 = str(input("Enter a sentence: "))
+print(message1.title())
+
+#practise ten
+
 
     
 

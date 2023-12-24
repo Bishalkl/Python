@@ -1,0 +1,29 @@
+Reverse a String:
+Write a function to reverse a given string.
+
+Palindrome Check:
+Create a function that checks if a given string is a palindrome (reads the same backward as forward).
+
+Count Vowels:
+Write a function that counts the number of vowels in a given string.
+
+String Concatenation:
+Create a program that takes two strings as input and concatenates them. Ensure that there is a space between the two strings.
+
+Word Count:
+Write a function that takes a sentence as input and counts the number of words in it.
+
+String Formatting:
+Given a list of names, create a formatted string that lists the names in a readable way (e.g., "John, Alice, and Bob").
+
+Find Substring:
+Write a function that takes a string and a substring as input and returns the number of occurrences of the substring in the string.
+
+Remove Duplicates:
+Create a function that removes duplicate characters from a string, maintaining the original order.
+
+Capitalize Words:
+Write a program that takes a sentence as input and capitalizes the first letter of each word.
+
+Anagram Check:
+Create a function that checks if two strings are anagrams of each other (contain the same characters with the same frequency).

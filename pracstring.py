@@ -1,9 +1,11 @@
 
 #practise one
-def reverseString(string): #creating the fuction
-    return string[::-1]  #returning the value after reversing the string 
+def reverseString(string): 
+    return string[::-1]  
 
 print(reverseString("Bishal koirala"))
+
+
 
 #practise two
 def countVowels(string): 
@@ -18,6 +20,8 @@ def countVowels(string):
 
 print(countVowels("Bishal"))  
 
+
+
 #practise three
 def palindromeCheck(string):
     string = string.lower()
@@ -30,5 +34,13 @@ def palindromeCheck(string):
 print(palindromeCheck("bibe"))      
 
 
-#prac
+#practise four
+string1 = str(input("Enter the first string: "))
+string2 = str(input("Enter the second string: "))
+first_method = string1 +" "+ string2
+second_method = f"{string1} {string2}"
+print(first_method)
+print(second_method)
+
+
 

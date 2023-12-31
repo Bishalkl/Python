@@ -58,6 +58,7 @@ formatted_message = f"{name_list[0]}, {name_list[1]} and {name_list[2]}."
 print(formatted_message)
 
 #practise seven
+
 def countSubstring(mainString, subString):
     count = 0
     mainString = mainString.lower()

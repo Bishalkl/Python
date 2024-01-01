@@ -1,1 +1,1 @@
-Hi, My name is bishal koirala.
+Data structures are fundamental components of computer science and programming that organize and store data in a way that enables efficient retrieval and manipulation. They serve as the building blocks for designing algorithms and solving complex problems. The choice of an appropriate data structure is crucial, as it can significantly impact the performance and efficiency of an algorithm or program.S

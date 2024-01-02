@@ -1,0 +1,19 @@
+Question 1: Class Definition
+
+Define a Python class named Rectangle. This class should have:
+
+Two attributes: length (float) and width (float).
+A method named area() that calculates and returns the area of the rectangle.
+Create an instance of the Rectangle class with a length of 5.0 units and a width of 3.0 units. Print the area of the rectangle using the area() method.
+
+Question 2: Object Initialization
+
+Define a Python class named Person. This class should have:
+
+Two attributes: name (string) and age (integer).
+A constructor method (__init__) that initializes the name and age attributes with the values passed as parameters.
+Create two instances of the Person class with the following information:
+
+Person 1: Name - "Alice", Age - 25
+Person 2: Name - "Bob", Age - 30
+Print the name and age of both persons.

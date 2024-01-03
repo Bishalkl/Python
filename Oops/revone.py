@@ -37,6 +37,7 @@ persontwo = Person("Bob", 30)
 
 #displaying output and calling object
 print(f"First person name is {personOne.name} and First person age is {personOne.age}.")
-print(f"Second person name is {persontwo.name} and Second person name is {persontwo.age}.")       
+print(f"Second person name is {persontwo.name} and Second person name is {persontwo.age}.")
+       
         
         

@@ -1,0 +1,7 @@
+asic Constructor Understanding:
+
+Define a class named Car with a constructor that initializes two attributes: make and model. Create an instance of the Car class and print the values of make and model for that instance.
+
+Parameterized Constructor:
+
+Create a class called Rectangle with a parameterized constructor that takes two parameters, length and width, and initializes instance variables accordingly. Include a method in the class named calculate_area that calculates and returns the area of the rectangle. Create an instance of the Rectangle class, set its length and width, and then call the calculate_area method to print the calculated area.

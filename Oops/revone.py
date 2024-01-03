@@ -30,15 +30,13 @@ class Person:
         self.name = name
         self.age = age
 
-    #creating the method for passing a parameter
-    def detail(self):
-        return f"Name is {self.name} and Age is {self.age}."
 
 #creating instance 
 personOne = Person("Alice",20)
 persontwo = Person("Bob", 30)
-print(personOne.detail())
-print(persontwo.detail())
-        
+
+#displaying output and calling object
+print(f"First person name is {personOne.name} and First person age is {personOne.age}.")
+print(f"Second person name is {persontwo.name} and Second person name is {persontwo.age}.")       
         
         

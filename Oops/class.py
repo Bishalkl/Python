@@ -24,3 +24,4 @@ class Employee:
 a = Employee() #creating the object
 a.putdata() #calling object for input 
 a.display() #calling object for display 
+

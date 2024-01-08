@@ -1,0 +1,37 @@
+
+Certainly! Here are two practice questions for each type of inheritance:
+
+Single Inheritance:
+Question:
+Create a base class called Person with attributes name and age. Derive a class Employee from Person and add an attribute employee_id. Implement a method in Employee to display the person's details along with the employee ID.
+
+Question:
+Define a class Vehicle with attributes make and model. Create a derived class Car from Vehicle and add an attribute fuel_type. Implement a method in Car to display the vehicle's details, including the fuel type.
+
+Multiple Inheritance:
+Question:
+Design three classes: Database, Logger, and Application. Create a class WebApp that inherits from both Database and Logger. Implement a method in WebApp to log a message and save data to the database.
+
+Question:
+Define classes Scanner and Printer with methods scan() and print_document(), respectively. Create a class MultifunctionDevice that inherits from both Scanner and Printer. Implement a method in MultifunctionDevice to perform both scanning and printing.
+
+Multilevel Inheritance:
+Question:
+Develop a class hierarchy: Animal -> Mammal -> Dog. Add appropriate attributes and methods to each class. Create an instance of the Dog class and demonstrate the use of inherited methods.
+
+Question:
+Build a class hierarchy: Vehicle -> Car -> SportsCar. Include attributes such as brand and speed. Implement a method in each class to display information. Create an instance of SportsCar and showcase the information.
+
+Hierarchical Inheritance:
+Question:
+Create a base class Shape with attributes name and color. Derive two classes Circle and Rectangle from Shape. Implement methods in each subclass to calculate and display the area.
+
+Question:
+Define a class Employee with attributes name and salary. Derive two classes Manager and Developer from Employee. Add a method in each subclass to display the role of the employee.
+
+Hybrid Inheritance:
+Question:
+Design a class hierarchy: LivingThing -> Animal -> Bird. Add a mixin class CanFly that includes a method fly(). Create a class Penguin that inherits from both Bird and CanFly. Demonstrate the use of the fly() method.
+
+Question:
+Create a class ElectronicDevice with attributes brand and power_consumption. Derive two classes Computer and Smartphone from ElectronicDevice. Implement a class SmartComputer that inherits from both Computer and Smartphone. Add a method to display information about the smart computer.

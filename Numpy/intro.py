@@ -30,4 +30,31 @@ new_array = np.array([1,2,3,4,5])
 print(new_array.shape)
 print(new_array.ndim)  
 
-#
+#zero
+ar_zero = np.zeros(4)
+print(ar_zero)
+
+ar_zero1 = np.zeros((4,3))
+print(ar_zero1)
+
+#Ones
+ar_one = np.ones(5)
+print(ar_one)
+
+#Empty
+ar_em = np.empty(5)
+print(ar_em)
+
+#Arrange
+ar_rn = np.arange(4)
+print(ar_rn)
+
+#Diagonal
+ar_dia = np.eye(5)
+print(ar_dia)
+
+#Linspace
+ar_lin = np.linspace(0,20,num=5) 
+print(ar_lin)
+
+#Creating a arrays with Randoms Number

@@ -67,5 +67,13 @@ print(rand_number)
 randn_number= np.random.randn(4,3)
 print(randn_number)
 
-#
+#ranf
+ranf_number = np.random.ranf(3)
+print(ranf_number)
+
+#randint
+
+#we should pust first min value and max and total value will generate a random value according to that range.
+randint_number = np.random.randint(5,20,10)
+print(randint_number)
 

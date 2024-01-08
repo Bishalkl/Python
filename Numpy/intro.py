@@ -57,4 +57,15 @@ print(ar_dia)
 ar_lin = np.linspace(0,20,num=5) 
 print(ar_lin)
 
-#Creating a arrays with Randoms Number
+#Random Number
+
+#rand()
+rand_number = np.random.rand(2,4) #Generate a random number between 0 and 1 
+print(rand_number)
+
+#randn() #Generate a random number between close to zero and it could be both positive and negative 
+randn_number= np.random.randn(4,3)
+print(randn_number)
+
+#
+

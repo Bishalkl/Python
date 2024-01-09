@@ -29,3 +29,14 @@ print(matrix_empty)
 #q2
 arr_empty = np.empty(1)
 print(arr_empty)
+
+
+#Arrange:
+#q1
+arr_even = np.arange(2,10,2)
+print(arr_even)
+
+#q2
+arr_1d = np.arange(1,10) #first make numpy list
+arr_2d = arr_1d.reshape((3,3)) #and reshape the matrix 
+print(arr_2d)

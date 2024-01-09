@@ -40,3 +40,17 @@ print(arr_even)
 arr_1d = np.arange(1,10) #first make numpy list
 arr_2d = arr_1d.reshape((3,3)) #and reshape the matrix 
 print(arr_2d)
+
+#Diagonal
+
+#q1
+matrix_diag = np.eye(4,4)
+print(matrix_diag)
+
+#q2
+matrix_identity = np.eye(3,3)
+print(matrix_identity)
+
+
+
+

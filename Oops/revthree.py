@@ -70,4 +70,28 @@ first_Webapp.display()
 #Multileve Inheritance
 
 #class
-class 
+class Animal:
+    def __init__(self,specises):
+        self.specises = specises
+
+class Mammal(Animal):
+    def __init__(self,name,specises):
+        super().__init__(specises)
+        self.name = name
+
+class Dog(Mammal):
+    def __init__(self,name,specises,breed):
+        super().__init__(name,specises)
+        self.breed = breed
+    
+    def detail(self):
+        print(f"Specises: {self.specises}.")
+        print(f"Name: {self.name}.")
+        print(f"Breed: {self.breed}.")
+
+
+#instance 
+Dog1 = Dog("Land","Dog","Husky")
+Dog1.detail()
+
+

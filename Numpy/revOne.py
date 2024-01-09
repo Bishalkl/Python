@@ -61,4 +61,16 @@ print(arr_custom_linspace)
 arr_negative_linespace = np.linspace(-1,1)
 print(arr_negative_linespace)
 
-#
+#Random Number
+
+#q1
+matrix_list= np.random.randint(50,100,9)
+matrix_randit = matrix_list.reshape(3,3)
+print(matrix_randit)
+
+
+#q2
+arr_random_float = np.random.ranf(7)
+print(arr_random_float)
+
+

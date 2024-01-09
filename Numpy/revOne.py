@@ -51,6 +51,14 @@ print(matrix_diag)
 matrix_identity = np.eye(3,3)
 print(matrix_identity)
 
+#Linspace:
 
+#q1
+arr_custom_linspace = np.linspace(5,15)
+print(arr_custom_linspace)
 
+#q2
+arr_negative_linespace = np.linspace(-1,1)
+print(arr_negative_linespace)
 
+#

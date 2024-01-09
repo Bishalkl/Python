@@ -1,0 +1,31 @@
+
+Certainly! Here are additional exercises for each topic:
+
+Zeros:
+
+Create a 3x3 matrix of zeros named matrix_zeros.
+Generate a 1D array of 8 zeros named arr_zeros_8.
+Ones:
+
+Create a 2x4 matrix of ones named matrix_ones.
+Generate a 1D array of 6 ones named arr_ones_6.
+Empty:
+
+Create a 2x2 matrix named matrix_empty without initializing its values.
+Generate a 1D array named arr_empty without initializing its values.
+Arrange:
+
+Generate a 1D array named arr_even with even numbers from 0 to 10.
+Create a 2D array named arr_2d with values [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+Diagonal:
+
+Create a 4x4 matrix named matrix_diag with a diagonal of twos.
+Generate a 3x3 identity matrix named matrix_identity.
+Linspace:
+
+Generate a 1D array named arr_custom_linspace with 10 evenly spaced values between 5 and 15.
+Create a 1D array named arr_negative_linspace with 5 evenly spaced values from -1 to 1.
+Random Numbers:
+
+Generate a 3x3 matrix of random integers between 50 and 100 named matrix_randint.
+Create a 1D array named arr_random_floats with 7 random floating-point values between 0 and 1.

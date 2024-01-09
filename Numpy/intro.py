@@ -50,7 +50,7 @@ ar_rn = np.arange(4)
 print(ar_rn)
 
 #Diagonal
-ar_dia = np.eye(5)
+ar_dia = np.eye(5) #Diagonal
 print(ar_dia)
 
 #Linspace

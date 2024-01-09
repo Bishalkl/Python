@@ -95,3 +95,35 @@ Dog1 = Dog("Land","Dog","Husky")
 Dog1.detail()
 
 
+#Hierarchical Inheritance 
+
+import math # importing math calculating
+class Shape:
+
+    #init
+    def __init__(self,name, color):
+        self.name = name
+        self.color = color
+
+class Cricle(Shape):
+
+    #init
+    def __init__(self,radius,name,color):
+        super().__init__(name,color)
+        self.radius = radius
+
+    #method
+    def areaDisplay(self):
+        return f"Name of object is {self.name} and color is {self.color} and The area of circle is {math.pi * self.radius ** 2}."
+        
+class Rectangle(Shape):
+
+    #init
+    def __init__(self,length,width,name,color):
+        super().__init__(name,color)
+        self.length = length
+        self.width = width
+    
+    #method
+    def areaDisplay(self):
+        return f"Name of object is {self.name} and color is {self.color} and The area of circle is {self.length * self.width}."

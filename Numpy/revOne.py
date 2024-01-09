@@ -20,7 +20,12 @@ print(matrix_one)
 arr_ones_6 = np.ones(6)
 print(arr_ones_6)
 
-
 #Empty
 
 #q1
+matrix_empty = np.empty((2,2))
+print(matrix_empty)
+
+#q2
+arr_empty = np.empty(1)
+print(arr_empty)

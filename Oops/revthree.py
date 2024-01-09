@@ -105,7 +105,7 @@ class Shape:
         self.name = name
         self.color = color
 
-class Cricle(Shape):
+class Circle(Shape):
 
     #init
     def __init__(self,radius,name,color):
@@ -114,7 +114,7 @@ class Cricle(Shape):
 
     #method
     def areaDisplay(self):
-        return f"Name of object is {self.name} and color is {self.color} and The area of circle is {math.pi * self.radius ** 2}."
+        print(f"Name of object is {self.name} and color is {self.color} and The area of circle is {math.pi * self.radius ** 2}.")
         
 class Rectangle(Shape):
 
@@ -126,4 +126,31 @@ class Rectangle(Shape):
     
     #method
     def areaDisplay(self):
-        return f"Name of object is {self.name} and color is {self.color} and The area of circle is {self.length * self.width}."
+        print( f"Name of object is {self.name} and color is {self.color} and The area of Rectangle is {self.length * self.width}.")
+    
+# instance 
+rectangle = Rectangle(12,34,"First", "Red")
+rectangle.areaDisplay()
+circle = Circle(12,"Second","Red")
+circle.areaDisplay()
+
+#Hybrid
+class LivingThing:
+    pass
+
+class Animal(LivingThing):
+    pass
+
+class Bird(Animal):
+    pass
+
+class CanFly:
+    
+    def fly(self):
+        print("Can fly!!!!")
+    
+class Penguin(Bird,CanFly):
+    pass
+
+penguin = Penguin()
+penguin.fly()

@@ -70,7 +70,7 @@ print(matrix_randit)
 
 
 #q2
-arr_random_float = np.random.ranf(7)
+arr_random_float = np.random.rand(7)
 print(arr_random_float)
 
 

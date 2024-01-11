@@ -77,3 +77,10 @@ print(ranf_number)
 randint_number = np.random.randint(5,20,10)
 print(randint_number)
 
+
+
+#Datatype
+
+#checking datatype
+ 
+ #question one 

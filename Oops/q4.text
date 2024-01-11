@@ -1,0 +1,26 @@
+
+Certainly! Here's another code exercise for you:
+
+Code Exercise:
+Objective:
+Create a Book class that demonstrates encapsulation. The class should have private attributes for the book title, author, and price. Provide methods for getting and setting each of these attributes.
+
+Requirements:
+
+The Book class should have private attributes:
+
+__title (string)
+__author (string)
+__price (float)
+The class should have the following methods:
+
+__init__(self, title, author, price): Initializes the book with the provided title, author, and price.
+get_title(self): Returns the title of the book.
+get_author(self): Returns the author of the book.
+get_price(self): Returns the price of the book.
+set_price(self, new_price): Sets a new price for the book.
+Instructions:
+
+Create an instance of Book.
+Use the methods to get and set the attributes of the book.
+Print the final details of the book.

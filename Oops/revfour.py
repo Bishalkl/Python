@@ -36,3 +36,41 @@ my_acount = BankAccount("12635347",50000)
 print(my_acount.deposit(10000))
 
 print(my_acount.withdraw(5000))
+
+
+#question2
+
+#class 
+class Book:
+
+    #init
+    def __init__(self,title,author,price):
+        self.__title = title
+        self.__author = author
+        self.__price = price
+
+    #method for price 
+    def set_price(self,new_price):
+        self.new_price = new_price
+        return new_price
+        
+    
+    #get
+    def get_title(self):
+        return self.__title
+    
+    def get_author(self):
+        return self.__author
+    
+    def get_price(self):
+        return self.__price
+
+
+#instance 
+# Creating an instance
+Book1 = Book("Statistics and Probability", "Dr.James rd jackson", 2000)
+
+print(f"Title: {Book1.get_title()}. \nAuthor: {Book1.get_author()}. \nOld Price: Rs.{Book1.get_price()}/only. \nNew Price: Rs.{Book1.set_price(1500)}/only.")
+
+
+

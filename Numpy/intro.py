@@ -79,8 +79,31 @@ print(randint_number)
 
 
 
-#Datatype
+#Arthimetic Function
 
-#checking datatype
- 
- #question one 
+var = np.array([1,2,3])
+
+print(np.min(var)) #to get min value of arrays
+print(np.max(var)) #to get max value of arrays
+print(np.argmin(var)) #to get a index postion of min value 
+print(np.argmax(var)) #to get a index postion of max value 
+
+#axis = 0 for col
+#axis = 1 for row
+
+#using 2d arrays
+var1 = np.array([[2,1,3],[9,5,6]])
+print(np.min(var1,axis=0))
+print(np.max(var1,axis=1))
+
+#Squre root function
+print(np.sqrt(var))
+
+#sin  and cos function
+print(np.sin(var))
+print(np.cos(var))
+
+#cumsum function
+print(np.cumsum(var)) #adding the value of each after each and it is use in statitisc in median 
+
+#Shape and reshape of numpy arrays

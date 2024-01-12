@@ -107,3 +107,11 @@ print(np.cos(var))
 print(np.cumsum(var)) #adding the value of each after each and it is use in statitisc in median 
 
 #Shape and reshape of numpy arrays
+
+#shape check
+shape_arr = np.array([[1,2,3],[1,3,4]])
+print(shape_arr.shape)
+
+#ndim function
+shape_arr1 = np.array([1,2,3,4], ndmin=4)
+print(shape_arr1)

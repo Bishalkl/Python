@@ -116,3 +116,12 @@ print(shape_arr.shape)
 shape_arr1 = np.array([1,2,3,4], ndmin=4)
 print(shape_arr1)
 print(shape_arr1.ndim) #check the dimension of arrrays
+print(shape_arr1.shape)
+
+#Reshape
+shape_arr2= np.array([1,2,3,4,5,6,7,8,9])
+reshape_arr = shape_arr2.reshape(3,3)
+
+print(reshape_arr)
+print(reshape_arr.ndim) 
+print(reshape_arr.shape)

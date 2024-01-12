@@ -125,3 +125,7 @@ reshape_arr = shape_arr2.reshape(3,2,3)
 print(reshape_arr)
 print(reshape_arr.ndim) 
 print(reshape_arr.shape)
+
+print(reshape_arr.reshape(-1)) #to reshape the arrays
+
+

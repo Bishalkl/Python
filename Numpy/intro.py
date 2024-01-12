@@ -112,8 +112,8 @@ print(np.cumsum(var)) #adding the value of each after each and it is use in stat
 shape_arr = np.array([[1,2,3],[1,3,4]])
 print(shape_arr.shape)
 
-#ndim function
-shape_arr1 = np.array([1,2,3,4], ndmin=4)
+#ndim function 
+shape_arr1 = np.array([1,2,3,4], ndmin=4) #customize the dimension
 print(shape_arr1)
 print(shape_arr1.ndim) #check the dimension of arrrays
 print(shape_arr1.shape)

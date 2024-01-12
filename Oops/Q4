@@ -1,0 +1,15 @@
+Create a BankAccount class with the following requirements:
+
+The class should have private attributes for account_holder, balance, and is_locked.
+
+Implement getter and setter methods for account_holder and balance. The is_locked attribute should only have a getter.
+
+Implement a method unlock_account that sets is_locked to False.
+
+Implement a method withdraw that allows withdrawing money from the account. Make sure to check if the account is locked before allowing a withdrawal.
+
+Implement a method lock_account that sets is_locked to True.
+
+Implement a method deposit that allows depositing money into the account. Make sure to check if the account is locked before allowing a deposit.
+
+Implement a __str__ method that returns a string representation of the account with the account holder's name and current balance.

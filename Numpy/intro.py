@@ -115,3 +115,4 @@ print(shape_arr.shape)
 #ndim function
 shape_arr1 = np.array([1,2,3,4], ndmin=4)
 print(shape_arr1)
+print(shape_arr1.ndim) #check the dimension of arrrays

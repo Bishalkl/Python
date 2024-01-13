@@ -30,10 +30,20 @@ result = np.cumsum(var5)
 print(result)
 for i  ,value in enumerate(result):
     if(value >= 10):
-        print(f"Index {i}: {value}")
+        print(f"Index is {i} here the value exceeds 10 and value is {value}.")
         break
 
-    
+#Shape and Reshape
+
+#Q1
+arr = np.array([[5,8,2],[3,1,7]])
+print(np.size(arr))
+
+#Q2
+arrs = np.array([1,2,3,4])
+result_reshape = arrs.reshape(2,2)
+print(result_reshape)
+
 
 
 

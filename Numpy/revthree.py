@@ -19,8 +19,23 @@ print(np.sqrt(var3))
 
 
 #Cumulative Sum:
+
+# q1
 nums = np.array([1,2,3,4,5])
 print(np.cumsum(nums))
+
+# q2
+var5 = np.array([2,4,1,7,3])
+result = np.cumsum(var5)
+print(result)
+for i  ,value in enumerate(result):
+    if(value >= 10):
+        print(f"Index {i}: {value}")
+        break
+
+    
+
+
 
 
 

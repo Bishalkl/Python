@@ -129,3 +129,38 @@ print(reshape_arr.shape)
 print(reshape_arr.reshape(-1)) #to reshape the arrays
 
 
+#Boardcasting
+#to avoid Broadcasting
+# -same Dimension
+#-should be one in minimum data array
+
+a = np.array([1,2,3])
+print(a.shape)
+b = np.array([[1],[2],[3]])
+c = a + b
+print(c)
+
+#Indexing Numpy Arrays
+
+#1D index
+var_1d = np.array([1,2,3,4,5])
+print(var_1d[-1])
+
+#2D index
+var_2d = np.array([[2,3],[3,7]])
+print(var_2d[1,0])
+
+#3d index
+var_3d = np.array([[[1,2],[3,6]],[[1,2],[4,5]]])
+print(var_3d[1,0,0])
+
+#Slicing NumPy Arrays
+
+#1d dimension
+var_a = np.array([1,2,3,4])
+print(var_a[1:3])
+
+
+
+
+

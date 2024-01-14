@@ -1,0 +1,13 @@
+Task Manager:
+
+Create a task management system where users can add, update, and delete tasks.
+Define a Task class with attributes like title, description, due_date, etc.
+Implement methods to add new tasks, update existing tasks, mark tasks as completed, and delete tasks.
+You can also add features like sorting tasks by due date, displaying overdue tasks, and saving tasks to a file.
+Library Management System:
+
+Build a simple library management system with books, authors, and patrons.
+Create classes for Book, Author, and Patron.
+Implement methods to check out and return books, view available books, and manage patron information.
+Consider using inheritance, for example, creating different types of books (fiction, non-fiction) that inherit from a common Book class.
+Store data in a file or database for persistence between program runs.

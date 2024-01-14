@@ -1,0 +1,16 @@
+Question 1: Abstract Class and Method Overriding
+Create an abstract class called Vehicle with an abstract method display_info.
+Create two subclasses of Vehicle - Car and Bicycle. Implement the display_info method in both subclasses to display relevant information for each type of vehicle.
+Write a function called show_vehicle_info that takes a list of Vehicle objects and calls the display_info method for each object.
+
+
+Question 2: Operator Overloading
+Create a class called ComplexNumber to represent complex numbers with real and imaginary parts.
+Overload the + operator to add two complex numbers.
+Overload the * operator to multiply two complex numbers.
+Test your implementation by creating instances of ComplexNumber and performing addition and multiplication operations.
+
+Question 3: Polymorphic Shapes with Inheritance
+Create a base class called Shape with a method get_area that returns the area of the shape (you can use regular methods, not necessarily abstract).
+Create three subclasses of Shape - Rectangle, Circle, and Triangle. Implement the get_area method in each subclass.
+Write a function called print_shape_info that takes a list of Shape objects and prints the type of each shape along with its area.

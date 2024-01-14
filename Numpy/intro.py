@@ -157,9 +157,16 @@ print(var_3d[1,0,0])
 #Slicing NumPy Arrays
 
 #1d dimension
-var_a = np.array([1,2,3,4])
-print(var_a[1:3])
+var_a = np.array([1,2,3,4,5,6,7,8,9,10])
+print(var_a[1:3]) #give starting point to given end point
+print(var_a[:4]) #starting point to given point
+print(var_a[::]) #strting point to ending point
+print(var_a[::2]) # gap fo 2 from starting point to ending point
+print(var_a[::-1]) #reversed array
 
+#multiple dimension
+var_b = np.array([[1,2,3,4],[1,2,4,5]])
+print(var_b[1,::-1])
 
 
 

@@ -38,3 +38,29 @@ result = listInt(*my_list)
 
 if result is not None:
     print("Result: ",result)
+
+#Question four 
+    
+class ValueTooSmallError(Exception):
+    def __init__(self,value):
+        self.value = value
+        super().__init__(f"Error: Value {value} is too small. Please enter the value greater than 10.")
+
+    
+def a(input):
+    try:
+        if input < 10:
+            raise ValueTooSmallError(input)
+        else:
+            print("Value is acceptable")
+    except ValueTooSmallError as e:
+        print(e)
+
+#Example usage
+user_input = int(input("Enter an integer value: "))
+a(user_input)
+
+
+
+
+    

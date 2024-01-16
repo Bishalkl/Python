@@ -13,4 +13,11 @@ if result is not None:
 
 #Question two
 
-
+try: 
+    with open("example.txt", "r") as file:
+        content = file.read()
+        print("File content:\n", content)
+except FileNotFoundError:
+    print("Error: The file 'example.txt' does not exist.")
+except Exception as e:
+    print(f"An unexpected error occurred: {e}.")

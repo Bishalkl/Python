@@ -21,3 +21,20 @@ except FileNotFoundError:
     print("Error: The file 'example.txt' does not exist.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}.")
+
+#Question three
+def listInt(*list):
+    try:
+        return list[int(input("Enter the index: "))]
+    except IndexError:
+        print("Enter the right index")
+        return None
+    except TypeError:
+        print("Please enter the right input")
+        return None
+
+my_list = [1,2,3,5]
+result = listInt(*my_list)
+
+if result is not None:
+    print("Result: ",result)

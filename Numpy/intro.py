@@ -169,5 +169,47 @@ var_b = np.array([[1,2,3,4],[1,2,4,5]])
 print(var_b[1,::-1])
 
 
+#iterating 
 
+#basic iterating 1d
+a2 = np.array([1,2,3,4,5])
+for i in a2:
+    print(i)
 
+#basic iterating 2d
+a3 = np.array([[1,2,3],[4,3,2],[4,3,3]])
+for i in a3:
+    for j in i:
+        print(j)
+
+#basic iterating 3d
+a4 = np.array([[[1,2,3],[1,2,3]],[[1,2,3],[1,2,3]]])
+for i in a4:
+    for j in i:
+        for k in j:
+            print(k)
+
+#using nditer function which make it very easy
+for i in np.nditer(a4):
+    print(i)
+
+#using buffered to store the data in specific character
+for i in np.nditer(a3, flags=['buffered'],op_dtypes=["S"]):
+    print(i)
+
+#using ndenumerate for get index also 
+for i ,d in np.ndenumerate(a3):
+    print(i,d)
+
+#Copy
+a6 = np.array([1,3,4,5])
+co = a6.copy() # doesn't relay on orginal data it will create new location
+a6[2] = 10
+print(f"var: {a6}")
+print(f"copy: {co}")
+
+#view
+a7 = np.array([1,2,3,4]) 
+co1 = a7.view() #but views relay on orginal data and will get affect if orginal data modified
+a7[2] = 10
+print(f"View: {co1}")

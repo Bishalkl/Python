@@ -1,0 +1,61 @@
+
+Absolutely! Let's do a quick revision and provide some practice exercises:
+
+Revision:
+Broadcasting:
+
+Broadcasting in NumPy allows operations on arrays of different shapes and sizes.
+Make sure the arrays either have the same dimensions or one of them has size 1 along that dimension.
+Indexing Numpy Arrays:
+
+For a 1D array (var_1d), you can use positive and negative indices (e.g., var_1d[-1] gives the last element).
+For a 2D array (var_2d), you specify row and column indices (e.g., var_2d[1,0] gives the element in the second row, first column).
+For a 3D array (var_3d), you extend the indexing to the third dimension (e.g., var_3d[1,0,0] gives the element in the second layer, first row, and first column).
+Slicing NumPy Arrays:
+
+For a 1D array (var_a), use slicing to extract portions (e.g., var_a[1:3] gives elements from index 1 to 2).
+Experiment with different slicing options ([:4], [::], [::2], [::-1]).
+For a 2D array (var_b), practice slicing along both dimensions (e.g., var_b[1,::-1] reverses the elements in the second row).
+Practice Exercises:
+Broadcasting:
+
+Create two arrays of different shapes and perform element-wise multiplication using broadcasting.
+Try different arithmetic operations with arrays of different shapes.
+Indexing:
+
+Given a 2D array example_array = np.array([[11, 12, 13], [21, 22, 23], [31, 32, 33]]), extract the element 22.
+Create your own 3D array and extract a specific element using indexing.
+Slicing:
+
+Take a 1D array practice_array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]).
+Slice the array to get elements from index 3 to 7.
+Reverse the array using slicing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a 2D array and experiment with slicing along both dimensions.

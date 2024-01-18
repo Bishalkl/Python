@@ -24,3 +24,10 @@ e = np.array([1,2,3,4,5])
 f = np.copy(e)
 e = np.array([i*2 for i in e]) 
 print(f,e)
+
+#q5
+h = np.array([[1,2,3],[2,3,4]])
+j = h[0,0:3].view()
+h [0,0] = 34
+
+print(j,h)

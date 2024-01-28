@@ -62,5 +62,22 @@ a(user_input)
 
 
 
+#question 5
+class CustomIOError(Exception):
+    def __init__(self, filename):
+        self.filename = filename
+        super().__init__(f"Error: Unable to read file '{filename}'")
 
-    
+def read_file_contents(filename):
+    try:
+        with open(filename, 'r') as file:
+            content = file.read()
+            print("File content:\n", content)
+    except IOError:
+        raise CustomIOError(filename)
+
+# Example usage:
+try:
+    read_file_contents("data.txt")
+except CustomIOError as e:
+    print(e)
